@@ -13,6 +13,7 @@ module.exports = {
 
   devServer: {
     contentBase: 'dist',
+    port: 8000
   },
 
   module: {
@@ -38,7 +39,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx']
+    extensions: ['.', '.js', '.jsx']
   },
   // eslint: {
   //   configFile: './.eslintrc'
